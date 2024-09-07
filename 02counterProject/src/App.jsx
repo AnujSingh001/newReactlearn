@@ -11,8 +11,11 @@ function App() {
   }
 
   let removeValue= ()=>{
-    let newValue = count-1
+    if(count > 0){
+      let newValue = count-1
     setCount(newValue)
+    }
+    
   }
 
   return (
